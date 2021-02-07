@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: src/assets/content/data/config.json
+  label: Site Config
 - type: heading
   label: Content
 - type: directory
@@ -21,9 +24,6 @@ sections:
   label: Info Page
 - type: heading
   label: Config
-- type: document
-  path: src/assets/content/data/config.json
-  label: Site Config
 upload_dir: src/assets/content/images
 public_path: "/src/assets/content/images"
 front_matter_path: ''
