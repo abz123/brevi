@@ -1,0 +1,126 @@
+session_name: brevi
+start_directory: ./  # load session relative to config location (project root).
+windows:
+  - window_name: con 
+    focus: true
+    layout: main-vertical
+    #layout: tiled 
+    options:
+      main-pane-width: 64
+    # shell_command_before:
+      # - cd ~/Public/js/vue/vue-docs      # run as a first command in all panes
+      #- tree -La 1
+    panes:
+      - shell_command:                  # pane no. 1
+        - tree -La 1
+        - gb
+      - shell_command:                  # pane no. 2
+        - vim ../README.md 
+        - 77j0
+        #- G
+        focus: true
+      - shell_command:                  # pane no. 4
+        - npm run dev
+
+  - window_name: dev1 
+    layout: tiled
+    panes:
+      #- null
+      - shell_command:    
+        - vim gridsome.config.js 
+        focus: true
+      - shell_command:    
+        - vim src/main.js
+      - shell_command:
+        - vim src/layouts/Default.vue
+      - shell_command:
+        - vim src/pages/Index.vue
+        # - vim src/components/TodoPrivateList.vue
+
+  - window_name: dev2
+    layout: tiled
+    panes:
+      #- null
+      - shell_command:    
+        - vim src
+        focus: true
+      - shell_command:           
+        - vim src
+      - shell_command:
+        - vim src 
+      - shell_command:
+        - vim src 
+      #- vim ~/Public/js/gql/README.md 
+      #- shell_command:
+      #- vim ~/Public/js/vue/vue-docs/index.html
+
+  - window_name: dev3
+    layout: tiled
+    panes:
+      #- null
+      - shell_command:    
+        - vim src
+        focus: true
+      - shell_command:           
+        - vim src
+      - shell_command:
+        - vim src 
+      - shell_command:
+        - vim src 
+
+  - window_name: man1 
+    layout: tiled
+    panes:
+      - shell_command:    
+        - vim ~/Public/js/gql/README.md 
+        focus: true
+      - shell_command:
+        - vim ~/Public/emmet/emmet.css 
+      #- vim ~/Public/emmet/index.html
+      - shell_command:
+        - vim ~/Public/js/ecma-babel/00-main.js
+      - shell_command:
+        - vim ~/Public/js/ecma-babel/stoyan/oop-js/00.js
+      - shell_command:
+        #- clear
+        - node ~/Public/js/ecma-babel/00-main.js 
+      - shell_command:
+      #- cd ~/Public/js/ecma-babel/stoyan/oop-js
+      # - python -m http.server 8001 
+        - node ~/Public/js/ecma-babel/stoyan/oop-js/00.js
+
+  - window_name: man2 
+    layout: tiled
+    panes:
+      - shell_command:    
+        - vim ~/Public/js/vue/gridsome/01-docs/README.md
+        #- vim src 
+        focus: true
+        #- clear                    # pane no. 1
+      - shell_command:
+        - vim src
+      #  - cd ~/Public/js/ecma-babel/stoyan/oop-js
+      #  - python -m http.server 8001 
+      - shell_command:
+        - vim ~/Public/vim/master-class-cannon/10-buffer-windows/README.md
+      - shell_command:
+        - vim ~/Public/tmux/03-hogan/README.md
+        #- null
+      - shell_command:                  # pane no. 4
+        - vim ~/Public/git/0-git-commands.md
+      - shell_command:                  # pane no. 4
+        - vim ~/Public/cli-node-deno/zsh.md
+
+  #- window_name: admin
+  #  layout: tiled
+  #  panes:
+  #    - shell_command:    
+  #      - cd ~/Documents/admin/2019/11
+  #      - vim
+  #    - shell_command:
+  #      - vim ~/Documents/logins/login.md 
+  #      focus: true
+  #    - null
+  #    - null
+  #    - null
+  #    - null
