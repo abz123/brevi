@@ -1,6 +1,6 @@
 {
   "description": "<p>This blog was created using <a href=\"https://forestry.io/\" title=\"Forestry Link\">Forestry</a> &amp; <a href=\"https://gridsome.org/\" title=\"Gatsby Link\">Gridsome</a><br></p>",
-  "cta": "<p>Let's see if that works</p>",
+  "cta": "<p>I should see this in preview!!</p>",
   "contact": {
     "email": "info@forestry.io",
     "twitter_handle": "forestryio",
