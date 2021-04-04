@@ -1,8 +1,8 @@
 ---
 title: Song of Myself
 author: Walt Whitman
-date: 2019-07-19T07:00:00Z
-hero_image: "/src/assets/content/images/ren-ran-bBiuSdck8tU-unsplash.jpg"
+date: 2019-07-19T07:00:00.000+00:00
+hero_image: "/src/assets/content/images/max-di-capua-AhHICglxxx8-unsplash.jpg"
 
 ---
 I have heard what the talkers were talking, the talk of the  
