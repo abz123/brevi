@@ -1,6 +1,6 @@
 {
   "description": "<p>This blog was created using <a href=\"https://forestry.io/\" title=\"Forestry Link\">Forestry</a> &amp; <a href=\"https://gridsome.org/\" title=\"Gatsby Link\">Gridsome</a><br></p>",
-  "cta": "<p>this edit from cms editor did not show in preview?</p><p>it also did not show in preview after tab refresh?</p><p>After save/commit still did not show in preview?</p>",
+  "cta": "<p>this edit from cms editor did not show in preview?</p><p>it also did not show in preview after tab refresh?</p><p>After save/commit still did not show in preview?</p><p>preview edit failed to show content edit?</p>",
   "contact": {
     "email": "info@forestry.io",
     "twitter_handle": "forestryio",
