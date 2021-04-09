@@ -30,7 +30,7 @@ db.json
 *.sln
 *.sw*
 .zsh*
-vue.yaml
+brevi.yaml
 
 # audio
 *.mp3
