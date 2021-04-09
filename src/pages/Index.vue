@@ -1,5 +1,5 @@
 <template>
-  <Layout page="home">
+  <Layout page="home1">
     <BlogList :posts="$page.posts.edges" />
   </Layout>
 </template>
