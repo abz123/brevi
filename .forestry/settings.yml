@@ -10,7 +10,7 @@ sections:
   path: src/assets/content/data/config.json
   label: Site Config
 - type: heading
-  label: Content1
+  label: Content
 - type: directory
   path: src/assets/content/blog
   label: Blog Posts
