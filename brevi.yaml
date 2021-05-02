@@ -60,13 +60,13 @@ windows:
       #- null
       - shell_command:    
         - vim src
-        focus: true
       - shell_command:           
         - vim src
       - shell_command:
         - vim src 
       - shell_command:
-        - vim src 
+        - vim ../../forestry/README.md 
+        focus: true
 
   - window_name: man1 
     layout: tiled
