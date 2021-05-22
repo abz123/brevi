@@ -9,7 +9,7 @@ fields:
   label: Title
 - type: field_group
   name: contact
-  label: contact
+  label: Contact
   fields:
   - type: text
     name: email
