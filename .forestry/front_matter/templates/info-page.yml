@@ -16,13 +16,13 @@ fields:
     label: Email
   - type: text
     name: twitter_handle
-    label: Twitter_handle
+    label: Twitter handle
   - type: text
     name: github_handle
-    label: Github_handle
+    label: Github handle
 - name: background_color
   type: color
-  label: Background_color
+  label: Background color
   config:
     required: false
     color_format: Hex
