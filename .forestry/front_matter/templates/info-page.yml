@@ -2,6 +2,11 @@
 label: Info Page
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - type: textarea
   name: description
   label: description
