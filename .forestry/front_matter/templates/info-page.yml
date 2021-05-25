@@ -17,7 +17,7 @@ fields:
   fields:
   - type: text
     name: email
-    label: Email
+    label: email
   - type: text
     name: twitter_handle
     label: Twitter handle
