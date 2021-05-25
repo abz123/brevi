@@ -11,6 +11,15 @@ fields:
     schema:
       format: html-blocks
   label: description
+- name: cta
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: cta
 - type: field_group
   name: contact
   label: contact
@@ -40,14 +49,5 @@ fields:
     color_format: Hex
   description: Enter page text color here
   default: "#EBEBEB"
-- name: cta
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: cta
 pages:
 - src/assets/content/data/info.json
