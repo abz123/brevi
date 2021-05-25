@@ -13,7 +13,7 @@ fields:
   label: description
 - type: field_group
   name: contact
-  label: Contact
+  label: contact
   fields:
   - type: text
     name: email
