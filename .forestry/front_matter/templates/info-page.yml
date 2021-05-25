@@ -26,7 +26,7 @@ fields:
     label: github_handle
 - name: background_color
   type: color
-  label: background-color
+  label: background_color
   config:
     required: false
     color_format: Hex
