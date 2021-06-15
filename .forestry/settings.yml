@@ -6,8 +6,6 @@ webhook_url:
 sections:
 - type: heading
   label: Content
-- type: heading
-  label: Newest
 - type: directory
   path: src/assets/content/blog
   label: Blog Posts
